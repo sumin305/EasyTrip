@@ -1,0 +1,24 @@
+PODS:
+  - ChatGPTSwift (1.3.1):
+    - GPTEncoder (= 1.0.0)
+  - FSCalendar (2.8.4)
+  - GPTEncoder (1.0.0)
+
+DEPENDENCIES:
+  - ChatGPTSwift (~> 1.3.1)
+  - FSCalendar
+
+SPEC REPOS:
+  trunk:
+    - ChatGPTSwift
+    - FSCalendar
+    - GPTEncoder
+
+SPEC CHECKSUMS:
+  ChatGPTSwift: 37a1d90b9b8af621618b0abd92cf8ac39eccee59
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  GPTEncoder: 67d0f61b0ef846cea92d7a9e4d4063beb8cd7227
+
+PODFILE CHECKSUM: 178db6754e0158721e3f760b299b5528958f10b6
+
+COCOAPODS: 1.12.1

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "66C410C6-B6DF-4A0F-A570-6705CA25C1AE"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B728429F-8253-4446-889E-5E037EDB0BFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EasyTrip/RecommendPlanView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4"
+            landmarkName = "RecommendPlanView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "B728429F-8253-4446-889E-5E037EDB0BFC - 63c6a70503c5a810"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EasyTrip.RecommendPlanView.init() -&gt; EasyTrip.RecommendPlanView"
+                  moduleName = "EasyTrip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/soom/Desktop/EasyTrip/EasyTrip/RecommendPlanView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "B728429F-8253-4446-889E-5E037EDB0BFC - cd502fdef57d20c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EasyTrip.RecommendPlanView.init(respond: Swift.String, question: Swift.String) -&gt; EasyTrip.RecommendPlanView"
+                  moduleName = "EasyTrip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/soom/Desktop/EasyTrip/EasyTrip/RecommendPlanView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "5"
+                  endingLineNumber = "5"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E975EFA2667B2B4AACE17E9 /* Pods_EasyTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4C87C7095516499795F29C /* Pods_EasyTrip.framework */; };
+		ED5F743C2A23795400E11271 /* PersonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F743B2A23795400E11271 /* PersonType.swift */; };
+		ED5F743E2A237B9300E11271 /* AskLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F743D2A237B9300E11271 /* AskLog.swift */; };
+		ED5F74432A237EF000E11271 /* KCC-Chassam.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED5F74402A237EF000E11271 /* KCC-Chassam.otf */; };
+		ED5F74442A237EF000E11271 /* KCC-Chassam.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED5F74412A237EF000E11271 /* KCC-Chassam.ttf */; };
+		ED5F74452A237EF000E11271 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED5F74422A237EF000E11271 /* Podfile */; };
+		ED5F74472A237F8500E11271 /* RIDIBatang.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED5F74462A237F8500E11271 /* RIDIBatang.otf */; };
+		ED5F744A2A23817600E11271 /* SCDream4.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED5F74492A23817600E11271 /* SCDream4.otf */; };
+		ED5F744C2A23818200E11271 /* SCDream6.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED5F744B2A23818200E11271 /* SCDream6.otf */; };
+		ED5F744E2A23824900E11271 /* Dovemayo_gothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED5F744D2A23824900E11271 /* Dovemayo_gothic.ttf */; };
+		ED5F74502A2388B900E11271 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F744F2A2388B900E11271 /* MainView.swift */; };
+		EDE050DA2A1B986200FDDDC5 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE050D92A1B986200FDDDC5 /* DateFormatter.swift */; };
+		EDE050DC2A1B992A00FDDDC5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE050DB2A1B992A00FDDDC5 /* Event.swift */; };
+		EDE050DE2A1B99FE00FDDDC5 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE050DD2A1B99FE00FDDDC5 /* CalendarView.swift */; };
+		EDE050E02A1BA26E00FDDDC5 /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE050DF2A1BA26E00FDDDC5 /* EventManager.swift */; };
+		EDE050E22A1BA82900FDDDC5 /* AddEventSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE050E12A1BA82900FDDDC5 /* AddEventSheet.swift */; };
+		EDE050E42A1BBA4E00FDDDC5 /* MyStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE050E32A1BBA4E00FDDDC5 /* MyStoryView.swift */; };
+		EDE816352A0A7EC300F76D61 /* EasyTripApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE816342A0A7EC300F76D61 /* EasyTripApp.swift */; };
+		EDE816372A0A7EC300F76D61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE816362A0A7EC300F76D61 /* ContentView.swift */; };
+		EDE816392A0A7EC400F76D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE816382A0A7EC400F76D61 /* Assets.xcassets */; };
+		EDE8163C2A0A7EC400F76D61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE8163B2A0A7EC400F76D61 /* Preview Assets.xcassets */; };
+		EDE816442A0A7EE700F76D61 /* ChatGPTSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EDE816432A0A7EE700F76D61 /* ChatGPTSwift */; };
+		EDE816462A0A7F4F00F76D61 /* RecommendPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE816452A0A7F4F00F76D61 /* RecommendPlanView.swift */; };
+		EDE816482A0A7F6E00F76D61 /* RecommendPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE816472A0A7F6E00F76D61 /* RecommendPlan.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E7962A30F0F675F89AE016E /* Pods-EasyTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrip.release.xcconfig"; path = "Target Support Files/Pods-EasyTrip/Pods-EasyTrip.release.xcconfig"; sourceTree = "<group>"; };
+		5E4C87C7095516499795F29C /* Pods_EasyTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E494532A4F8AA81F19446A /* Pods-EasyTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrip.debug.xcconfig"; path = "Target Support Files/Pods-EasyTrip/Pods-EasyTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		ED5F743B2A23795400E11271 /* PersonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonType.swift; sourceTree = "<group>"; };
+		ED5F743D2A237B9300E11271 /* AskLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskLog.swift; sourceTree = "<group>"; };
+		ED5F74402A237EF000E11271 /* KCC-Chassam.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KCC-Chassam.otf"; sourceTree = "<group>"; };
+		ED5F74412A237EF000E11271 /* KCC-Chassam.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KCC-Chassam.ttf"; sourceTree = "<group>"; };
+		ED5F74422A237EF000E11271 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		ED5F74462A237F8500E11271 /* RIDIBatang.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RIDIBatang.otf; sourceTree = "<group>"; };
+		ED5F74482A237FAF00E11271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ED5F74492A23817600E11271 /* SCDream4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream4.otf; sourceTree = "<group>"; };
+		ED5F744B2A23818200E11271 /* SCDream6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream6.otf; sourceTree = "<group>"; };
+		ED5F744D2A23824900E11271 /* Dovemayo_gothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dovemayo_gothic.ttf; sourceTree = "<group>"; };
+		ED5F744F2A2388B900E11271 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EDE050D92A1B986200FDDDC5 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		EDE050DB2A1B992A00FDDDC5 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		EDE050DD2A1B99FE00FDDDC5 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		EDE050DF2A1BA26E00FDDDC5 /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
+		EDE050E12A1BA82900FDDDC5 /* AddEventSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventSheet.swift; sourceTree = "<group>"; };
+		EDE050E32A1BBA4E00FDDDC5 /* MyStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStoryView.swift; sourceTree = "<group>"; };
+		EDE816312A0A7EC300F76D61 /* EasyTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE816342A0A7EC300F76D61 /* EasyTripApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTripApp.swift; sourceTree = "<group>"; };
+		EDE816362A0A7EC300F76D61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDE816382A0A7EC400F76D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE8163B2A0A7EC400F76D61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDE816452A0A7F4F00F76D61 /* RecommendPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendPlanView.swift; sourceTree = "<group>"; };
+		EDE816472A0A7F6E00F76D61 /* RecommendPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendPlan.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE8162E2A0A7EC300F76D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE816442A0A7EE700F76D61 /* ChatGPTSwift in Frameworks */,
+				6E975EFA2667B2B4AACE17E9 /* Pods_EasyTrip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B95391C0CAB055A828CDAD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E4C87C7095516499795F29C /* Pods_EasyTrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C27E4501644FEC3E6867A912 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92E494532A4F8AA81F19446A /* Pods-EasyTrip.debug.xcconfig */,
+				0E7962A30F0F675F89AE016E /* Pods-EasyTrip.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED5F743F2A237EF000E11271 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				ED5F744D2A23824900E11271 /* Dovemayo_gothic.ttf */,
+				ED5F744B2A23818200E11271 /* SCDream6.otf */,
+				ED5F74492A23817600E11271 /* SCDream4.otf */,
+				ED5F74462A237F8500E11271 /* RIDIBatang.otf */,
+				ED5F74402A237EF000E11271 /* KCC-Chassam.otf */,
+				ED5F74412A237EF000E11271 /* KCC-Chassam.ttf */,
+				ED5F74422A237EF000E11271 /* Podfile */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		ED5F74512A2388E300E11271 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED5F744F2A2388B900E11271 /* MainView.swift */,
+				ED5F743D2A237B9300E11271 /* AskLog.swift */,
+				EDE050E32A1BBA4E00FDDDC5 /* MyStoryView.swift */,
+				EDE816362A0A7EC300F76D61 /* ContentView.swift */,
+				EDE050E12A1BA82900FDDDC5 /* AddEventSheet.swift */,
+				EDE050DD2A1B99FE00FDDDC5 /* CalendarView.swift */,
+				EDE816452A0A7F4F00F76D61 /* RecommendPlanView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED5F74522A23891000E11271 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDE050DB2A1B992A00FDDDC5 /* Event.swift */,
+				EDE816472A0A7F6E00F76D61 /* RecommendPlan.swift */,
+				ED5F743B2A23795400E11271 /* PersonType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED5F74532A23892900E11271 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EDE050D92A1B986200FDDDC5 /* DateFormatter.swift */,
+				EDE050DF2A1BA26E00FDDDC5 /* EventManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EDE816282A0A7EC300F76D61 = {
+			isa = PBXGroup;
+			children = (
+				EDE816332A0A7EC300F76D61 /* EasyTrip */,
+				EDE816322A0A7EC300F76D61 /* Products */,
+				C27E4501644FEC3E6867A912 /* Pods */,
+				5B95391C0CAB055A828CDAD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE816322A0A7EC300F76D61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE816312A0A7EC300F76D61 /* EasyTrip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE816332A0A7EC300F76D61 /* EasyTrip */ = {
+			isa = PBXGroup;
+			children = (
+				EDE816342A0A7EC300F76D61 /* EasyTripApp.swift */,
+				ED5F74512A2388E300E11271 /* View */,
+				ED5F74532A23892900E11271 /* ViewModel */,
+				ED5F74522A23891000E11271 /* Model */,
+				ED5F74482A237FAF00E11271 /* Info.plist */,
+				ED5F743F2A237EF000E11271 /* Font */,
+				EDE8163A2A0A7EC400F76D61 /* Preview Content */,
+			);
+			path = EasyTrip;
+			sourceTree = "<group>";
+		};
+		EDE8163A2A0A7EC400F76D61 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EDE816382A0A7EC400F76D61 /* Assets.xcassets */,
+				EDE8163B2A0A7EC400F76D61 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE816302A0A7EC300F76D61 /* EasyTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE8163F2A0A7EC400F76D61 /* Build configuration list for PBXNativeTarget "EasyTrip" */;
+			buildPhases = (
+				A37BBC58ABDD898E21F46A3E /* [CP] Check Pods Manifest.lock */,
+				EDE8162D2A0A7EC300F76D61 /* Sources */,
+				EDE8162E2A0A7EC300F76D61 /* Frameworks */,
+				EDE8162F2A0A7EC300F76D61 /* Resources */,
+				75E214EA97453BE1C64A829A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyTrip;
+			packageProductDependencies = (
+				EDE816432A0A7EE700F76D61 /* ChatGPTSwift */,
+			);
+			productName = EasyTrip;
+			productReference = EDE816312A0A7EC300F76D61 /* EasyTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE816292A0A7EC300F76D61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EDE816302A0A7EC300F76D61 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = EDE8162C2A0A7EC300F76D61 /* Build configuration list for PBXProject "EasyTrip" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE816282A0A7EC300F76D61;
+			packageReferences = (
+				EDE816422A0A7EE700F76D61 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */,
+			);
+			productRefGroup = EDE816322A0A7EC300F76D61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE816302A0A7EC300F76D61 /* EasyTrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE8162F2A0A7EC300F76D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5F744C2A23818200E11271 /* SCDream6.otf in Resources */,
+				ED5F74472A237F8500E11271 /* RIDIBatang.otf in Resources */,
+				ED5F74452A237EF000E11271 /* Podfile in Resources */,
+				EDE8163C2A0A7EC400F76D61 /* Preview Assets.xcassets in Resources */,
+				ED5F744E2A23824900E11271 /* Dovemayo_gothic.ttf in Resources */,
+				ED5F744A2A23817600E11271 /* SCDream4.otf in Resources */,
+				ED5F74442A237EF000E11271 /* KCC-Chassam.ttf in Resources */,
+				EDE816392A0A7EC400F76D61 /* Assets.xcassets in Resources */,
+				ED5F74432A237EF000E11271 /* KCC-Chassam.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75E214EA97453BE1C64A829A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyTrip/Pods-EasyTrip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyTrip/Pods-EasyTrip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyTrip/Pods-EasyTrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A37BBC58ABDD898E21F46A3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyTrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE8162D2A0A7EC300F76D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5F743E2A237B9300E11271 /* AskLog.swift in Sources */,
+				ED5F74502A2388B900E11271 /* MainView.swift in Sources */,
+				EDE050E42A1BBA4E00FDDDC5 /* MyStoryView.swift in Sources */,
+				EDE816462A0A7F4F00F76D61 /* RecommendPlanView.swift in Sources */,
+				EDE050DE2A1B99FE00FDDDC5 /* CalendarView.swift in Sources */,
+				EDE050E02A1BA26E00FDDDC5 /* EventManager.swift in Sources */,
+				EDE816372A0A7EC300F76D61 /* ContentView.swift in Sources */,
+				EDE816352A0A7EC300F76D61 /* EasyTripApp.swift in Sources */,
+				EDE816482A0A7F6E00F76D61 /* RecommendPlan.swift in Sources */,
+				ED5F743C2A23795400E11271 /* PersonType.swift in Sources */,
+				EDE050DC2A1B992A00FDDDC5 /* Event.swift in Sources */,
+				EDE050DA2A1B986200FDDDC5 /* DateFormatter.swift in Sources */,
+				EDE050E22A1BA82900FDDDC5 /* AddEventSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDE8163D2A0A7EC400F76D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDE8163E2A0A7EC400F76D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE816402A0A7EC400F76D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E494532A4F8AA81F19446A /* Pods-EasyTrip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyTrip/Preview Content\"";
+				DEVELOPMENT_TEAM = F7THTSRVL7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EasyTrip/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumin305.EasyTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDE816412A0A7EC400F76D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7962A30F0F675F89AE016E /* Pods-EasyTrip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyTrip/Preview Content\"";
+				DEVELOPMENT_TEAM = F7THTSRVL7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EasyTrip/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumin305.EasyTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE8162C2A0A7EC300F76D61 /* Build configuration list for PBXProject "EasyTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE8163D2A0A7EC400F76D61 /* Debug */,
+				EDE8163E2A0A7EC400F76D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE8163F2A0A7EC400F76D61 /* Build configuration list for PBXNativeTarget "EasyTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE816402A0A7EC400F76D61 /* Debug */,
+				EDE816412A0A7EC400F76D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EDE816422A0A7EE700F76D61 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/ChatGPTSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EDE816432A0A7EE700F76D61 /* ChatGPTSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDE816422A0A7EE700F76D61 /* XCRemoteSwiftPackageReference "ChatGPTSwift" */;
+			productName = ChatGPTSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EDE816292A0A7EC300F76D61 /* Project object */;
+}
