@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6E975EFA2667B2B4AACE17E9 /* Pods_EasyTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4C87C7095516499795F29C /* Pods_EasyTrip.framework */; };
+		ED3798EB2A2633ED00CEABA8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3798EA2A2633ED00CEABA8 /* ImagePicker.swift */; };
 		ED5F743C2A23795400E11271 /* PersonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F743B2A23795400E11271 /* PersonType.swift */; };
 		ED5F743E2A237B9300E11271 /* AskLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F743D2A237B9300E11271 /* AskLog.swift */; };
 		ED5F74432A237EF000E11271 /* KCC-Chassam.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED5F74402A237EF000E11271 /* KCC-Chassam.otf */; };
@@ -37,6 +38,7 @@
 		0E7962A30F0F675F89AE016E /* Pods-EasyTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrip.release.xcconfig"; path = "Target Support Files/Pods-EasyTrip/Pods-EasyTrip.release.xcconfig"; sourceTree = "<group>"; };
 		5E4C87C7095516499795F29C /* Pods_EasyTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E494532A4F8AA81F19446A /* Pods-EasyTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrip.debug.xcconfig"; path = "Target Support Files/Pods-EasyTrip/Pods-EasyTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		ED3798EA2A2633ED00CEABA8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		ED5F743B2A23795400E11271 /* PersonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonType.swift; sourceTree = "<group>"; };
 		ED5F743D2A237B9300E11271 /* AskLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskLog.swift; sourceTree = "<group>"; };
 		ED5F74402A237EF000E11271 /* KCC-Chassam.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KCC-Chassam.otf"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			children = (
 				EDE050D92A1B986200FDDDC5 /* DateFormatter.swift */,
 				EDE050DF2A1BA26E00FDDDC5 /* EventManager.swift */,
+				ED3798EA2A2633ED00CEABA8 /* ImagePicker.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				ED5F743E2A237B9300E11271 /* AskLog.swift in Sources */,
 				ED5F74502A2388B900E11271 /* MainView.swift in Sources */,
 				EDE050E42A1BBA4E00FDDDC5 /* MyStoryView.swift in Sources */,
+				ED3798EB2A2633ED00CEABA8 /* ImagePicker.swift in Sources */,
 				EDE816462A0A7F4F00F76D61 /* RecommendPlanView.swift in Sources */,
 				EDE050DE2A1B99FE00FDDDC5 /* CalendarView.swift in Sources */,
 				EDE050E02A1BA26E00FDDDC5 /* EventManager.swift in Sources */,

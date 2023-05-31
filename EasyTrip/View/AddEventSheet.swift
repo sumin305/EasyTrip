@@ -6,9 +6,12 @@ struct AddEventSheet: View {
     @Environment(\.dismiss) private var dismiss
     @State var selectedDate: Date?
     @State private var title: String = ""
+    @State private var location: String = ""
+    @State var image: UIImage = UIImage()
     @State private var review: String = ""
     @State var startDate: Date = Date()
     @State var endDate: Date = Date()
+    @State var openImageSelector: Bool = false
     @StateObject private var dateManager = EventManager.shared
     
     var body: some View {
@@ -31,10 +34,19 @@ struct AddEventSheet: View {
                 }
             }.padding()
             TextField("제목 추가", text: $title).font(.custom("Dovemayo_gothic", size: 20)).padding().keyboardType(.decimalPad).disableAutocorrection(true)
-            DatePicker(selection: $startDate) {
+            TextField("여행 장소 추가", text: $location).font(.custom("Dovemayo_gothic", size: 20)).padding().keyboardType(.decimalPad).disableAutocorrection(true)
+            Button {
+                openImageSelector = true
+            } label: {
+                Text("이미지 추가").basicFont()
+            }.sheet(isPresented: $openImageSelector) {
+                ImagePicker(sourceType: .photoLibrary, selectedImage: $image)
+            }
+
+            DatePicker(selection: $startDate, displayedComponents: .date) {
                 Text("시작 날짜").font(.custom("Dovemayo_gothic", size: 20))
             }.padding()
-            DatePicker(selection: $endDate) {
+            DatePicker(selection: $endDate, displayedComponents: .date) {
                 Text("종료 날짜").font(.custom("Dovemayo_gothic", size: 20))
             }.padding()
             TextField("리뷰", text: $review).font(.custom("Dovemayo_gothic", size: 20)).padding().keyboardType(.decimalPad).disableAutocorrection(true)
@@ -49,7 +61,7 @@ struct AddEventSheet: View {
     
     func appendEvent(startDay: Date, intervalDay: Int, title: String) -> Bool {
         for i in 0...intervalDay {
-            dateManager.eventList.append(Event(title: title, startDate: startDate, endDate: startDay.addingTimeInterval(TimeInterval(86400*i))))
+            dateManager.eventList.append(Event(title: title, image: SomeImage(photo: image), startDate: startDate, endDate: startDay.addingTimeInterval(TimeInterval(86400*i))))
         }
         UserDefaults.standard.set(try? PropertyListEncoder().encode(dateManager.eventList), forKey: "EVENT_DATA_KEY")
         return UserDefaults.standard.synchronize()

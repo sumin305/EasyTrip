@@ -7,6 +7,8 @@ struct CalendarView: View {
     @State var isShowSheet: Bool = false
     @State var isShowAlert: Bool = false
     
+   
+
     struct Calendar: UIViewRepresentable {
         
         @Binding var selectedDate: Date?
@@ -105,17 +107,18 @@ struct CalendarView: View {
                     }
                 }.padding()
                 VStack(alignment: .leading) {
+                    
                     Text(df.string(from: selectedDate ?? Date())).basicFont()
                     List {
-                        ScrollView {
                             ForEach(dateManager.eventList, id: \.self) { event in
                                 if selectedDate == event.startDate {
                                     Text(event.title).basicFont()
                                 }
-                            }
-                        }
+                            }.onDelete(perform: deleteEvent)
+                        
                         
                     }.listStyle(DefaultListStyle()).cornerRadius(20)
+                        
                 }.padding().frame(
                     minWidth: 0,
                     maxWidth: .infinity,
@@ -124,8 +127,15 @@ struct CalendarView: View {
                 )
             }
         }
+        
     }
+    func deleteEvent(at offsets: IndexSet) {
+            dateManager.eventList.remove(atOffsets: offsets)
+        UserDefaults.standard.set(try? PropertyListEncoder().encode(dateManager.eventList), forKey: EventManager.EVENT_DATA_KEY)
+        }
+     
 }
+
 extension Text {
     func basicFont() -> Text{
         return self.font(.custom("Dovemayo_gothic", size: 20))
@@ -142,7 +152,9 @@ func setEvent(_ date: Date) {
     print(event)
     
 }
+                                       
 
+                                    
 struct CalendarView_Previews: PreviewProvider {
     static var previews: some View {
         CalendarView()
