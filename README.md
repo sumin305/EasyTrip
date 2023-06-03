@@ -92,7 +92,7 @@ if let img = event.image?.photo {
 ```
 
 #### ⏺ FSCalendar 패키지 SwiftUI에서 사용하기
-- UIViewRepresentable를 활용하여 SwiftUI에서 UIkit의 UIView를 활용
+- UIViewRepresentable를 활용하여 SwiftUI에서 UIkit의 UIView를 사용
 - UIView에서 선택한 날짜 데이터를 SwiftUI로 전달받는 것이 관건
 - @State와 @Binding 프로퍼티 래퍼를 활용하여 해결
 ```swift
