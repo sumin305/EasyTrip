@@ -21,7 +21,7 @@ AI기반 여행 일정 추천 및 일기 어플 개발
 #### ⏺ 입력 뷰 여러개로 받기 
 |Destination|Date|PersonType|Budget|Comfirmed|
 |---|---|---|---|---|
-|<img src = "https://github.com/sumin305/EasyTrip/assets/110437548/78eeba7a-0ff7-4ec3-8d93-b793d35a22d2" width = "240">|<img src = "https://github.com/sumin305/EasyTrip/assets/110437548/d42ef629-89d6-49dd-a66d-27ab4afa159a" width = "270">|<img src = "https://github.com/sumin305/EasyTrip/assets/110437548/42cf5323-9661-49ae-b1ee-48319a54563e" width = "240">|<img src = "https://github.com/sumin305/EasyTrip/assets/110437548/c9dc14d5-5d5e-4e4b-94ee-0e7e8e56ff6f" width = "270">|<img src = "https://github.com/sumin305/EasyTrip/assets/110437548/73b943d9-3d43-4b09-849b-304aff427aeb" width = "240">|
+|<img src = "https://github.com/sumin305/EasyTrip/assets/110437548/78eeba7a-0ff7-4ec3-8d93-b793d35a22d2" width = "240">|<img src = "https://github.com/sumin305/EasyTrip/assets/110437548/d42ef629-89d6-49dd-a66d-27ab4afa159a" width = "280">|<img src = "https://github.com/sumin305/EasyTrip/assets/110437548/42cf5323-9661-49ae-b1ee-48319a54563e" width = "240">|<img src = "https://github.com/sumin305/EasyTrip/assets/110437548/c9dc14d5-5d5e-4e4b-94ee-0e7e8e56ff6f" width = "270">|<img src = "https://github.com/sumin305/EasyTrip/assets/110437548/73b943d9-3d43-4b09-849b-304aff427aeb" width = "240">|
 
 - Switch-Case문 활용하여 한 화면당 하나의 입력을 받기
 - 뷰마다 index를 부여하여 다음 뷰로 이동할 때마다 index += 1   
