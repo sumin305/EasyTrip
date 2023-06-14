@@ -11,6 +11,7 @@ struct AddEventSheet: View {
     @State private var review: String = ""
     @State var startDate: Date = Date()
     @State var endDate: Date = Date()
+    @State var todayEmotion: EmotionType = EmotionType.happy
     @State var openImageSelector: Bool = false
     @StateObject private var dateManager = EventManager.shared
     
@@ -49,6 +50,11 @@ struct AddEventSheet: View {
             DatePicker(selection: $endDate, displayedComponents: .date) {
                 Text("종료 날짜").font(.custom("Dovemayo_gothic", size: 20))
             }.padding()
+            Picker("오늘의 기분은 어떠셨나요?", selection: $todayEmotion) {
+                ForEach(EmotionType.allCases) {
+                        Text($0.rawValue)
+                }
+            }.pickerStyle(.segmented)
             TextField("리뷰", text: $review).font(.custom("Dovemayo_gothic", size: 20)).padding().keyboardType(.decimalPad).disableAutocorrection(true)
             Spacer()
         }.padding().onAppear {
@@ -61,7 +67,7 @@ struct AddEventSheet: View {
     
     func appendEvent(startDay: Date, intervalDay: Int, title: String) -> Bool {
         for i in 0...intervalDay {
-            dateManager.eventList.append(Event(title: title, image: SomeImage(photo: image), startDate: startDate, endDate: startDay.addingTimeInterval(TimeInterval(86400*i))))
+            dateManager.eventList.append(Event(title: title, image: SomeImage(photo: image), expression: todayEmotion, startDate: startDate, endDate: startDay.addingTimeInterval(TimeInterval(86400*i))))
         }
         UserDefaults.standard.set(try? PropertyListEncoder().encode(dateManager.eventList), forKey: "EVENT_DATA_KEY")
         return UserDefaults.standard.synchronize()

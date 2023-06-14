@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E975EFA2667B2B4AACE17E9 /* Pods_EasyTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4C87C7095516499795F29C /* Pods_EasyTrip.framework */; };
+		38740E09D42AB898D972A31B /* Pods_EasyTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58E907B049D2238306B980F /* Pods_EasyTrip.framework */; };
 		ED3798EB2A2633ED00CEABA8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3798EA2A2633ED00CEABA8 /* ImagePicker.swift */; };
+		ED46A7E22A39FAF30007F267 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED46A7E12A39FAF30007F267 /* EventType.swift */; };
 		ED5F743C2A23795400E11271 /* PersonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F743B2A23795400E11271 /* PersonType.swift */; };
-		ED5F743E2A237B9300E11271 /* AskLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5F743D2A237B9300E11271 /* AskLog.swift */; };
 		ED5F74432A237EF000E11271 /* KCC-Chassam.otf in Resources */ = {isa = PBXBuildFile; fileRef = ED5F74402A237EF000E11271 /* KCC-Chassam.otf */; };
 		ED5F74442A237EF000E11271 /* KCC-Chassam.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED5F74412A237EF000E11271 /* KCC-Chassam.ttf */; };
 		ED5F74452A237EF000E11271 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ED5F74422A237EF000E11271 /* Podfile */; };
@@ -24,7 +24,6 @@
 		EDE050DE2A1B99FE00FDDDC5 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE050DD2A1B99FE00FDDDC5 /* CalendarView.swift */; };
 		EDE050E02A1BA26E00FDDDC5 /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE050DF2A1BA26E00FDDDC5 /* EventManager.swift */; };
 		EDE050E22A1BA82900FDDDC5 /* AddEventSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE050E12A1BA82900FDDDC5 /* AddEventSheet.swift */; };
-		EDE050E42A1BBA4E00FDDDC5 /* MyStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE050E32A1BBA4E00FDDDC5 /* MyStoryView.swift */; };
 		EDE816352A0A7EC300F76D61 /* EasyTripApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE816342A0A7EC300F76D61 /* EasyTripApp.swift */; };
 		EDE816372A0A7EC300F76D61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE816362A0A7EC300F76D61 /* ContentView.swift */; };
 		EDE816392A0A7EC400F76D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE816382A0A7EC400F76D61 /* Assets.xcassets */; };
@@ -36,11 +35,11 @@
 
 /* Begin PBXFileReference section */
 		0E7962A30F0F675F89AE016E /* Pods-EasyTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrip.release.xcconfig"; path = "Target Support Files/Pods-EasyTrip/Pods-EasyTrip.release.xcconfig"; sourceTree = "<group>"; };
-		5E4C87C7095516499795F29C /* Pods_EasyTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E494532A4F8AA81F19446A /* Pods-EasyTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTrip.debug.xcconfig"; path = "Target Support Files/Pods-EasyTrip/Pods-EasyTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		A58E907B049D2238306B980F /* Pods_EasyTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3798EA2A2633ED00CEABA8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		ED46A7E12A39FAF30007F267 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
 		ED5F743B2A23795400E11271 /* PersonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonType.swift; sourceTree = "<group>"; };
-		ED5F743D2A237B9300E11271 /* AskLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskLog.swift; sourceTree = "<group>"; };
 		ED5F74402A237EF000E11271 /* KCC-Chassam.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KCC-Chassam.otf"; sourceTree = "<group>"; };
 		ED5F74412A237EF000E11271 /* KCC-Chassam.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KCC-Chassam.ttf"; sourceTree = "<group>"; };
 		ED5F74422A237EF000E11271 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
@@ -55,7 +54,6 @@
 		EDE050DD2A1B99FE00FDDDC5 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		EDE050DF2A1BA26E00FDDDC5 /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
 		EDE050E12A1BA82900FDDDC5 /* AddEventSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventSheet.swift; sourceTree = "<group>"; };
-		EDE050E32A1BBA4E00FDDDC5 /* MyStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStoryView.swift; sourceTree = "<group>"; };
 		EDE816312A0A7EC300F76D61 /* EasyTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE816342A0A7EC300F76D61 /* EasyTripApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTripApp.swift; sourceTree = "<group>"; };
 		EDE816362A0A7EC300F76D61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,7 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDE816442A0A7EE700F76D61 /* ChatGPTSwift in Frameworks */,
-				6E975EFA2667B2B4AACE17E9 /* Pods_EasyTrip.framework in Frameworks */,
+				38740E09D42AB898D972A31B /* Pods_EasyTrip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +79,7 @@
 		5B95391C0CAB055A828CDAD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5E4C87C7095516499795F29C /* Pods_EasyTrip.framework */,
+				A58E907B049D2238306B980F /* Pods_EasyTrip.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,8 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				ED5F744F2A2388B900E11271 /* MainView.swift */,
-				ED5F743D2A237B9300E11271 /* AskLog.swift */,
-				EDE050E32A1BBA4E00FDDDC5 /* MyStoryView.swift */,
 				EDE816362A0A7EC300F76D61 /* ContentView.swift */,
 				EDE050E12A1BA82900FDDDC5 /* AddEventSheet.swift */,
 				EDE050DD2A1B99FE00FDDDC5 /* CalendarView.swift */,
@@ -129,6 +125,7 @@
 				EDE050DB2A1B992A00FDDDC5 /* Event.swift */,
 				EDE816472A0A7F6E00F76D61 /* RecommendPlan.swift */,
 				ED5F743B2A23795400E11271 /* PersonType.swift */,
+				ED46A7E12A39FAF30007F267 /* EventType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,7 +192,7 @@
 				EDE8162D2A0A7EC300F76D61 /* Sources */,
 				EDE8162E2A0A7EC300F76D61 /* Frameworks */,
 				EDE8162F2A0A7EC300F76D61 /* Resources */,
-				75E214EA97453BE1C64A829A /* [CP] Embed Pods Frameworks */,
+				0D6ACCB71D6B394895509B7D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,7 +262,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		75E214EA97453BE1C64A829A /* [CP] Embed Pods Frameworks */ = {
+		0D6ACCB71D6B394895509B7D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,9 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED5F743E2A237B9300E11271 /* AskLog.swift in Sources */,
 				ED5F74502A2388B900E11271 /* MainView.swift in Sources */,
-				EDE050E42A1BBA4E00FDDDC5 /* MyStoryView.swift in Sources */,
 				ED3798EB2A2633ED00CEABA8 /* ImagePicker.swift in Sources */,
 				EDE816462A0A7F4F00F76D61 /* RecommendPlanView.swift in Sources */,
 				EDE050DE2A1B99FE00FDDDC5 /* CalendarView.swift in Sources */,
@@ -321,6 +316,7 @@
 				EDE816372A0A7EC300F76D61 /* ContentView.swift in Sources */,
 				EDE816352A0A7EC300F76D61 /* EasyTripApp.swift in Sources */,
 				EDE816482A0A7F6E00F76D61 /* RecommendPlan.swift in Sources */,
+				ED46A7E22A39FAF30007F267 /* EventType.swift in Sources */,
 				ED5F743C2A23795400E11271 /* PersonType.swift in Sources */,
 				EDE050DC2A1B992A00FDDDC5 /* Event.swift in Sources */,
 				EDE050DA2A1B986200FDDDC5 /* DateFormatter.swift in Sources */,
@@ -456,6 +452,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EasyTrip/Preview Content\"";
 				DEVELOPMENT_TEAM = F7THTSRVL7;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EasyTrip/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -487,6 +484,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EasyTrip/Preview Content\"";
 				DEVELOPMENT_TEAM = F7THTSRVL7;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EasyTrip/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

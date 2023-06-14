@@ -6,7 +6,7 @@ struct Event: Codable, Hashable {
     var location: String = ""
     var image: SomeImage?
     var review: String = ""
-    var expression: String = ""
+    var expression: EmotionType
     var startDate: Date
     var endDate: Date
 }

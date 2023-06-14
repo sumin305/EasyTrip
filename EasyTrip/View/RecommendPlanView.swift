@@ -233,7 +233,7 @@ struct RecommendPlanView: View {
     
     func sendToChatGPT(_ message: String) async {
         print("send To ChatGPT")
-        let api = ChatGPTAPI(apiKey: "my-key")
+        let api = ChatGPTAPI(apiKey: ".")
         do {
             
             respond = try await api.sendMessage(text: message)

@@ -9,10 +9,11 @@ DEPENDENCIES:
   - FSCalendar
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - ChatGPTSwift
-    - FSCalendar
     - GPTEncoder
+  trunk:
+    - FSCalendar
 
 SPEC CHECKSUMS:
   ChatGPTSwift: 37a1d90b9b8af621618b0abd92cf8ac39eccee59

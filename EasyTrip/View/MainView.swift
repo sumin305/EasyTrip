@@ -1,4 +1,3 @@
-
 import SwiftUI
 
 struct MainView: View {
@@ -10,9 +9,6 @@ struct MainView: View {
             VStack {
                 Text("Easy Trip✈️").font(.custom("Dovemayo_gothic", size: 40))
                 Text("AI와 함께 여행을 계획하고 기록하세요!").font(.custom("Dovemayo_gothic", size: 20)).foregroundColor(.gray)
-
-       
-                
                 Group {
                     Divider()
                     HStack {
@@ -25,7 +21,7 @@ struct MainView: View {
                                 Spacer()
                                 Text("AI가 일정을 추천해줘요!\n").font(.custom("Dovemayo_gothic", size: 15)).foregroundColor(.gray).padding(5)
                             }.frame(width: 150, height: 150)
-                             .background(Color("Color 4"))
+                                .background(Color("Color 4"))
                         }.cornerRadius(10).padding(5)
                         
                         NavigationLink {
@@ -45,7 +41,7 @@ struct MainView: View {
                     }.padding()
                     
                     Divider()
-
+                    
                     VStack(alignment: .leading) {
                         Text("My Story").font(.custom("Dovemayo_gothic", size: 20))
                         VStack {
@@ -68,21 +64,18 @@ struct MainView: View {
                                                     .basicFont()
                                                 if let img = event.image?.photo {
                                                     Image(uiImage: UIImage(data: img)!).resizable().frame(width: 150, height: 150)
-                                                } 
+                                                }
                                                 
                                                 Text("\(event.title)").basicFont()
                                             }.padding().frame(minWidth: 100, minHeight: 200).background(Color(.white)).cornerRadius(15)
                                         }
                                     }.padding()
-
+                                    
                                 }
                             }
                         }.frame(minWidth: 250, maxWidth: 350, minHeight: 200).background(Color("Color 3")).cornerRadius(15)
                     }
                 }
-                    
-              
-               
             }
         }.ignoresSafeArea(.all)
     }

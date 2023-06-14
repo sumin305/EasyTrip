@@ -1,13 +1,8 @@
-//
-//  EasyTripApp.swift
-//  EasyTrip
-//
-//  Created by 이수민 on 2023/05/09.
-//
-
+import UIKit
 import SwiftUI
 
 @main
+
 struct EasyTripApp: App {
     var body: some Scene {
         WindowGroup {

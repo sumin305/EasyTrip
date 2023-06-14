@@ -19,7 +19,6 @@ struct CalendarView: View {
             calendar.delegate = context.coordinator
             calendar.dataSource = context.coordinator
             calendar.scope = .month  // 월간
-            //calendar.locale = Locale(identifier: "ko_KR")
             
             // 헤더 폰트 설정
             calendar.appearance.headerTitleFont = UIFont(name: "Dovemayo_gothic", size: 30)
@@ -54,11 +53,12 @@ struct CalendarView: View {
             
             calendar.placeholderType = .fillHeadTail
             calendar.swipeToChooseGesture.isEnabled = true
-            
             return calendar
         }
         // 날짜 선택 시 콜백 메소드
-        func updateUIView(_ uiView: FSCalendar, context: Context) {}
+        func updateUIView(_ uiView: FSCalendar, context: Context) {
+            
+        }
         
         func makeCoordinator() -> Coordinator {
             return Coordinator(selectedDate: $selectedDate)
@@ -70,11 +70,12 @@ struct CalendarView: View {
             init(selectedDate: Binding<Date?>) {
                 _selectedDate = selectedDate
             }
+            // 날짜 선택 시 콜백 메서드
             func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition) {
                 selectedDate = date
                 print(df.string(from: date))
             }
-            // 날짜 선택 해제 시 콜백 메소드
+            // 날짜 선택 해제 시 콜백 메서드
             public func calendar(_ calendar: FSCalendar, didDeselect date: Date, at monthPosition: FSCalendarMonthPosition) {
                 print(df.string(from: date))
                 
