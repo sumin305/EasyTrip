@@ -1,6 +1,6 @@
 # EasyTrip ✈️
 ChatGPT API를 활용한 똑똑한 여행 어플   
-> **개발기한 (2023.05 ~ 진행중)** [Notion](https://www.notion.so/82cded2972354d9395efdaa4e97b0307?pvs=4)
+> **개발기한 (2023.05) ** [Notion](https://www.notion.so/82cded2972354d9395efdaa4e97b0307?pvs=4)
 ##  프로젝트 소개 ⭐
 
 ### 주제
